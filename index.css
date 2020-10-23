@@ -1,0 +1,87 @@
+@import url('./vender/normalize.css');
+@import url('./vender/font.css');
+.page {
+    background-color: #101010;
+    font-family: 'Heebo', 'Abril', Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.menu {
+    height: 100%;
+}
+
+.menu__title {
+    padding:30px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.menu__box {
+    padding:0;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:25px;
+}
+.menu__list{
+    font-size: 25px;
+    width:25%;
+    border-radius: 10px;
+    font-weight: normal;
+    background-color: #101010;
+}
+.menu__button{
+    padding:10px;
+    color:#fff;
+    background-color: #101010;
+    font-family: inherit;
+    border: solid #fff;
+    border-radius: 10px;
+}
+.menu__button:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+.menu__skin-box{
+    padding:0;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: space-between;
+}
+.menu__skin{
+    width:40px;
+    height: 40px;
+    border: solid #fff;
+    border-radius: 10px;
+}
+.menu__skin-1 {
+   background-color:#ffe0bd ;
+}
+.menu__skin-2{
+   background-color: #ffcd94;
+}
+.menu__skin-3{
+    background-color: #eac086;
+
+}
+.menu__skin-4{
+    background-color: #ffad60;
+}
+.menu__skin-5{
+    background-color: #ffe39f;
+}
+.menu__skin-6{
+    background-color: #fff
+
+}
+
+.mouth{
+    background-color:#eac086;
+}
+
+.mouth__img{
+    width:100%;
+}

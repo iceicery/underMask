@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Abril";
+    src: url('./Abril_Fatface/AbrilFatface-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Heebo";
+    src: url('./Heebo/static/Heebo-Bold.ttf');
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Heebo";
+    src: url('./Heebo/static/Heebo-Light.ttf');
+    font-weight: normal;
+    font-display: swap;
+}
+
